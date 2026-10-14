@@ -24,7 +24,7 @@ export default defineConfig({
 
 ## 直接预览
 
-在线预览  [https://createbyai.github.io/vite-plugin-ai-ui-reference/](https://createbyai.github.io/vite-plugin-ai-ui-reference/)
+<a href="https://createbyai.github.io/vite-plugin-ai-ui-reference/" target="_blank" rel="noopener noreferrer">在线预览</a>
 
 ## 本地运行 demo
 

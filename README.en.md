@@ -6,7 +6,7 @@ This repository contains a development-time UI numbering plugin for Vite. The on
 
 ## Try the online preview
 
-Open the [live demo](https://createbyai.github.io/vite-plugin-ai-ui-reference/). Click **AI 编号** in the lower-right corner, or press `Alt+Shift+U`, to enable the overlay. Search for a number to locate an element, then copy a single reference or the full snapshot. Press `Esc` to close the overlay.
+Open the <a href="https://createbyai.github.io/vite-plugin-ai-ui-reference/" target="_blank" rel="noopener noreferrer">live demo</a> in a new tab. Click **AI 编号** in the lower-right corner, or press `Alt+Shift+U`, to enable the overlay. Search for a number to locate an element, then copy a single reference or the full snapshot. Press `Esc` to close the overlay.
 
 The standalone preview is [`docs/index.html`](./docs/index.html); it embeds the browser client so it works when hosted as a static page without a Vite server.
 
