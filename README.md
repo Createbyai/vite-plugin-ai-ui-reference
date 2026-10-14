@@ -1,27 +1,9 @@
-# UU 设置页 demo 与 AI UI Reference
+# Vite插件  AI UI Reference
 
 [English](./README.en.md)
 
-本仓库包含一个 UU 远程伴侣分辨率设置页 demo、一个 Vite 开发期 UI 编号插件，以及可直接托管的静态预览页。
-
-## 直接预览
-
-无需安装依赖即可打开 [静态 HTML demo](./docs/index.html)。如需公开预览，在 GitHub 仓库的 **Settings → Pages** 中选择从目标分支部署，并将目录设为 `/docs`。部署后访问 `https://<用户名>.github.io/<仓库名>/`。
-
-## 本地运行 demo
-
-要求 Node.js 20.19.0 或更新版本。在仓库根目录运行：
-
-```sh
-npm install
-npm run dev
-```
-
-Vite 会在 `http://127.0.0.1:4173/` 启动页面。生产构建：
-
-```sh
-npm run build
-```
+本仓库是Vite 开发期 UI 编号插件。
+``
 
 ## 使用插件
 
@@ -38,6 +20,28 @@ export default defineConfig({
 ```
 
 在本仓库的 demo 中，`vite.config.js` 直接引用插件本地源码。插件仅在 Vite 开发服务器中运行；生产构建不包含编号浮层。
+
+
+## 直接预览
+
+在线预览  [https://createbyai.github.io/vite-plugin-ai-ui-reference/](https://createbyai.github.io/vite-plugin-ai-ui-reference/)
+
+## 本地运行 demo
+
+要求 Node.js 20.19.0 或更新版本。在仓库根目录运行：
+
+```sh
+npm install
+npm run dev
+```
+
+Vite 会在 `http://127.0.0.1:4173/` 启动页面。生产构建：
+
+```sh
+npm run build
+`
+
+
 
 ### 为什么使用 UI 编号
 
