@@ -1,0 +1,21 @@
+{
+  "name": "uu-settings-ai-ui-reference",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "vite": "^7.1.12",
+    "@vitejs/plugin-vue": "^6.0.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}

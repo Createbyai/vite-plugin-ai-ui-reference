@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-ai-ui-reference",
+  "version": "0.1.0",
+  "description": "Add a development-only UI reference overlay to Vite applications.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Createbyai/vite-plugin-ai-ui-reference.git",
+    "directory": "plugins/vite-plugin-ai-ui-reference"
+  },
+  "homepage": "https://github.com/Createbyai/vite-plugin-ai-ui-reference#readme",
+  "bugs": {
+    "url": "https://github.com/Createbyai/vite-plugin-ai-ui-reference/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "peerDependencies": {
+    "vite": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "adapters/",
+    "examples/",
+    "README.md",
+    "README.en.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "ui",
+    "development",
+    "accessibility"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./adapters/client.js"
+  }
+}
